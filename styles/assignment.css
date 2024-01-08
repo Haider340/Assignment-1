@@ -5,7 +5,7 @@
 
 .header {
     background-image: url(images/Banner\ Image.png);
-    max-width: 1040px;
+    max-width: 1140px;
     height: 600px;
     border-radius: 20px;
     background-color: darkslateblue;
@@ -69,10 +69,8 @@ h2 {
     padding: 30px;
     background-color: azure;
 
-}#discount{
-    position: static;
-    margin-bottom: 200px;
 }
+
 
 .div-address {
     text-align: center;
