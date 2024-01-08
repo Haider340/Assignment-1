@@ -1,7 +1,6 @@
 /* header style part starts */
 .body {
     margin: 100px;
-    margin-top: 0%;
 }
 
 .header {
@@ -58,10 +57,21 @@ h2 {
     color: brown;
 }
 
-.img {
-    position: absolute;
-    margin: 270px;
-    margin-top: 30px;
+.new-year {
+    position: relative;
+    padding-left: 300px;
+}  
+.div-welcome{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: azure;
+
+}#discount{
+    position: static;
+    margin-bottom: 200px;
 }
 
 .div-address {
@@ -73,6 +83,7 @@ h2 {
     padding-top: 100px;
     font-size: 30px;
     font-weight: 500;
+    margin-top: 150px;
 
 }
 
@@ -165,12 +176,14 @@ h2 {
     display: flex;
 }
 
-.img-box> .img5 {
-    background-image: url(images/Rectangle\ 2.png);
+.img-box>.img5 {
+    background-image: url(../images/Rectangle\ 2.png);
     width: 1320px;
     height: 229px;
 
-}.img5{
+}
+
+.img5 {
     flex-shrink: 0;
 }
 
@@ -178,26 +191,35 @@ h2 {
     position: static;
     margin-top: 200px;
     margin-bottom: 300px;
-}.portfolio-title{
+}
+
+.portfolio-title {
     /* text-align: left; */
     text-align: ;
-} .portfolio-quate{
+}
+
+.portfolio-quate {
     /* text-align: left; */
     text-align: center;
     font-size: 24px;
     color: coral;
-    
-}.portfolio-description{
-    text-align: center;
-        
+
 }
-.images{
+
+.portfolio-description {
+    text-align: center;
+
+}
+
+.images {
     display: flex;
     display: inline-block;
-    max-width:1000px;
+    max-width: 1000px;
     margin: 40px;
     padding: 80px;
-}.subscribe{
+}
+
+.subscribe {
     text-align: center;
     max-width: 1040px;
     max-height: 550px;
@@ -206,9 +228,35 @@ h2 {
     margin-right: 50px;
     padding: 30px;
     background-color: blanchedalmond;
-    
-}.space{
+
+}
+
+.space {
     width: 650px;
     border-radius: 50px;
     color: crimson;
+
+}
+
+.space:hover {
+    background-color: darkorchid;
+}
+
+/* footer section styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    max-height: 600px;
+    background-color: black;
+    color: #FFF;
+    margin-top: 100px;/
+    /* margin-left: 100px; */
+    margin-right: 100px;
+    padding: 100px;
+}
+
+.footer-img {
+    margin-top: 200px;
+    padding: 30px;
 }
